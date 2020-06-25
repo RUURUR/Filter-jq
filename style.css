@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #262626;
+    color: #fff;
+}
+.container{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+ul li{
+    margin: 10px;
+    border-radius: 5px;
+  
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li.active{
+    background-color: #fff;
+    color: #262626;
+}
+.disp{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.bov{
+width:  23%;
+box-sizing: border-box;
+height: 100px;
+line-height: 100px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+font-size: 2em;
+float: left;
+margin: 10px;
+  
+
+}
+.html{
+    background-color: #ff4000;
+}
+.psd{
+    background-color:#0080ff;
+}
+.js{
+    background-color: #ffff00;
+}
+.react{
+    background-color:	#00ffff;
+}
+.redux{
+    background-color:	#bf00ff;
+}
